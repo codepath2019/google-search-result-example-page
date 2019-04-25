@@ -1,7 +1,7 @@
 /* https://ssl.gstatic.com/gb/images/i2_2ec824b0.png */
 
 .search-page-header-container {
-    margin-top: 27px;
+    margin-top: 20px;
 }
 .google-home-nav {
     display: inline-block;
@@ -16,7 +16,7 @@
 form.google-search-form {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .profile-nav {
@@ -31,7 +31,7 @@ form.google-search-form input {
 }
 
 form.google-search-form .search-input {
-    width: 650px;
+    width: 550px;
     font-family: "system-ui";
 }
 
@@ -39,7 +39,7 @@ form.google-search-form .search-input {
     border: solid 1px #e8e4e4;
     display: flex;
     border-radius: 25px;
-    height: 40px;
+    height: 45px;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -84,12 +84,12 @@ form.google-search-form .search-input {
     margin-left: 15px;
 }
 div.utils-nav-outer-container {
-    margin-top: 35px;
+    margin-top: 25px;
     border-bottom: solid 1px rgb(235, 235, 235);
 }
 
 div.utils-nav-container {
-    margin-left: 165px;
+    margin-left: 145px;
     width: fit-content;
 }
 
@@ -98,7 +98,7 @@ div.utils-nav-container a {
     font-family: Roboto, Arial, Serif;
     color: #777;
     font-size: 13px;
-    padding: 8px;
+    padding: 6px;
     margin: 2px;
 }
 
