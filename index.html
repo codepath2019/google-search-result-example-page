@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search Result Clone</title>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header class="search-page-header-container">
+            <div>
+                <div class="google-home-nav">
+                    <a href="https://www.google.com/" title="go to google home">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"/>
+                    </a>
+                </div>
+                <!-- form action, and method attributes need to be specified in order to create client server requests-->
+                <form class="google-search-form" action="some_kind_of_script.js" method="get">
+                    <div class="search-bar-container">
+                        <input type="text" class="search-input" value="Amazon Rainforest"/>
+                        <input type="button" class="microphone-button"/>
+                        <input type="button" class="search-button"/>
+                    </div>
+                </form>
+                <div class="profile-nav">
+                    <input type="button" class="apps-menu"/>
+                    <input type="button" class="profile-icon"/>
+                </div>
+            </div>
+            <div class="utils-nav-outer-container">
+                <div class="utils-nav-container cf">
+                    <div class="primary-utils-nav">
+                        <div class="utils-nav-box" id="all-link"><a href="#All">All</a></div>
+                        <div class="utils-nav-box"><a href="#Images">Images</a></div>
+                        <div class="utils-nav-box"><a href="#News">News</a></div>
+                        <div class="utils-nav-box"><a href="#Maps">Maps</a></div>
+                        <div class="utils-nav-box"><a href="#Videos">Videos</a></div>
+                        <div class="utils-nav-box"><a href="#More">More</a></div>
+                    </div>
+                    <div class="secondary-utils-nav">
+                        <div class="utils-nav-box"><a href="#Settings">Settings</a></div>
+                        <div class="utils-nav-box"><a href="#Tools">Tools</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
