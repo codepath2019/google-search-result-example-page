@@ -83,6 +83,18 @@ form.google-search-form .search-input {
     vertical-align: middle;
     margin-left: 15px;
 }
+/* source: <a href="https://icons8.com/icon/49477/sort-down">Sort Down icon by Icons8</a> */
+.arrow-down-icon {
+    background: url("https://img.icons8.com/nolan/64/000000/sort-down.png") no-repeat;
+    background-size: 22px;
+    background-position: center;
+    height: 22px;
+    width: 22px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
 div.utils-nav-outer-container {
     margin-top: 25px;
     border-bottom: solid 1px rgb(235, 235, 235);
@@ -143,7 +155,7 @@ div.utils-nav-box a:hover {
 
 .results-section-left .results-search-metric {
     color: #777;
-    padding: 16px;
+    padding: 16px 16px 0px 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -152,8 +164,9 @@ div.utils-nav-box a:hover {
 }
 
 .result-entry-container {
-    padding: 10px 0px 0px 16px;
+    padding: 10px 0px 0px 20px;
     width: 500px;
+    margin-top: 15px;
 }
 
 .result-entry-container a {
@@ -186,4 +199,50 @@ div.utils-nav-box a:hover {
     font-size: 13px;
     font-family: 'Roboto',arial,sans-serif;
     color: #1A0DAB
+}
+
+ul.people-also-ask-list {
+    list-style-type: none;
+    padding-left: 0px;
+    width: 630px;
+    margin-top: 25px;
+}
+
+ul.people-also-ask-list li.also-ask-question-entry {
+    padding: 12px 40px 12px 16px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    color: #222222;
+    border: solid 1px rgb(235, 235, 235);
+    border-bottom: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul.people-also-ask-list li.also-ask-question-entry div {
+    display: inline-block;
+}
+
+ul.people-also-ask-list li.also-ask-question-entry:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: initial;
+    font-size: 18px;
+}
+
+ul.people-also-ask-list li.also-ask-question-entry:last-child {
+    border-bottom: solid 1px rgb(235, 235, 235);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul.people-also-ask-list li.also-ask-header {
+    color: #545454;
+}
+
+.arrow-down-icon-container {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -16px;
 }
