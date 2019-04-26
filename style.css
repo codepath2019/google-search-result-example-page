@@ -117,6 +117,10 @@ div.utils-nav-box {
     margin-left: 12px;
 }
 
+div.utils-nav-box a:hover {
+    color: #000;
+}
+
 .primary-utils-nav .utils-nav-box:first-child{
     border-bottom: solid 3px #1A73E8;
 }
@@ -131,4 +135,55 @@ div.utils-nav-box {
     content: ' ';
     display: block;
     clear: both;
+}
+
+.results-section-left {
+    margin-left: 145px;
+}
+
+.results-section-left .results-search-metric {
+    color: #777;
+    padding: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Roboto',arial,sans-serif;
+    font-size: 13px;
+}
+
+.result-entry-container {
+    padding: 10px 0px 0px 16px;
+    width: 500px;
+}
+
+.result-entry-container a {
+    text-decoration: none;
+}
+
+.result-entry-container a.primary-link h3 {
+    margin: 0px;
+    font-family: 'Roboto',arial,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.result-entry-container .secondary-link-container {
+    padding: 3px 0px 0px 0px;
+}
+.result-entry-container a.secondary-link {
+    color: green;
+    font-size: 14px;
+    font-family: 'Roboto',arial,sans-serif;
+}
+
+.result-entry-container .result-text-snippet {
+    font-size: 13px;
+    font-family: 'Roboto',arial,sans-serif;
+    color: #545454;
+}
+
+.result-entry-container .related-key-words-nav a {
+    font-size: 13px;
+    font-family: 'Roboto',arial,sans-serif;
+    color: #1A0DAB
 }
