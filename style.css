@@ -152,8 +152,21 @@ div.utils-nav-box a:hover {
     clear: both;
 }
 
-.results-section-left {
+section.results-section {
+    position: relative;
+}
+
+section.results-section .results-section-left {
     margin-left: 145px;
+}
+
+section.results-section .results-section-related-info {
+    width: 450px;
+    border: solid 1px rgb(235, 235, 235);
+    position: absolute;
+    top: 60px;
+    left: 800px;
+
 }
 
 .results-section-left .results-search-metric {
