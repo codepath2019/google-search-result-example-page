@@ -8,5 +8,7 @@ Helpful questions:
     - https://www.youtube.com/watch?v=I3zAKyLRciU
 3. Why do floats automatically get repositioned to a new line when there is not enough spacing left?
 4. Why do a series of horizontally positioned inline-block elements have default spacing that can't seem to be removed? How do I fix it?
+5. Did you konw that absolute positioned element is positioned against the first ancestor, positioned element?
 
 Helpful resources:
+1. https://www.youtube.com/watch?v=6YJ2Vb7Eyfg
